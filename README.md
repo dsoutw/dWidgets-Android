@@ -1,3 +1,3 @@
-# Smart Widgets
+# dWidgets
 
 This is an Android utility program.
