@@ -2,7 +2,7 @@
 
 # Privacy Notices
 
-Last updated on October 23, 2023.
+Last updated on October 24, 2023.
 
 ## 1 Location
 
@@ -22,14 +22,15 @@ or revoking the location permissions.
 
 ## 2 WIFI Service Set Identifier (WIFI SSID)
 
-The application may collect your neighboring WIFI SSID data on your behave.
+The application may use your neighboring WIFI provider SSID data on your behave.
 The data will be used in one circumstances to perform necessary functionality:
 
-1. When You have a rule with an assigned WIFI SSID, the Application will scan Your neighboring
+1. When You have a rule with an assigned SSID, the Application will scan Your neighboring
    WIFI provider to detect if the conditions of the rule are met.
 
-Your neighboring WIFI SSID data will be only used on your device, will not be shared with
-a 3rd party. You can decline collecting the data by not using the components
+Your neighboring WIFI SSID data will only be used on your device.
+It will not be transmitted off the user's device nor shared with a 3rd party. 
+You can decline from using the data by not using the components
 (for example, remove all WIFI SSID rules), or revoking the location permissions.
 
 ## 3 Error Report
