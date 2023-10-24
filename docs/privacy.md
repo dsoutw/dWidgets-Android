@@ -30,7 +30,7 @@ The data will be used in one circumstances to perform necessary functionality:
 
 Your neighboring WIFI SSID data will only be used on your device.
 It will not be transmitted off the user's device nor shared with a 3rd party. 
-You can decline from using the data by not using the components
+You can decline from using the data by disabling the components
 (for example, remove all WIFI SSID rules), or revoking the location permissions.
 
 ## 3 Error Report
