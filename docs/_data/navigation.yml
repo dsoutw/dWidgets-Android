@@ -1,0 +1,10 @@
+- name: Home
+  link: /
+- name: Screenshots
+  link: /screenshots
+- name: Q&A
+  link: /questions
+- name: Sponsor
+  link: /sponsor
+- name: Contact
+  link: https://github.com/dsoutw/dWidgets-Android/discussions/categories/suggestions

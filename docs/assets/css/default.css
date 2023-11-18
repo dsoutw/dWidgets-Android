@@ -1,0 +1,45 @@
+header {
+	position: relative;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-left: 0;
+	padding-right: 0;
+	.inner {
+		a {
+			font-size: 32px;
+			color: #fff;
+		}
+	}
+}
+
+#main-nav {
+	font-size: 16px;
+	display: block;
+	float: right;
+	margin-top: 4px;
+	margin-bottom: 4px;	
+	
+	ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		float: right;
+		
+		li {
+			float: left;
+			margin: 8px;
+		}
+	}
+	
+	a {
+		font-size: 18px;
+		color: #fff;
+	}
+	a:hover {
+		color: #9ddcff;
+	}
+	a.active {
+		color: orange;
+	}
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en-US' }}">
+	<head>
+		<meta charset='utf-8'/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+		<link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}" media="screen" type="text/css"/>
+		<link rel="stylesheet" href="{{ '/assets/css/home.css' | relative_url }}" media="screen" type="text/css"/>
+		<link rel="stylesheet" href="{{ '/assets/css/print.css' | relative_url }}" media="print" type="text/css"/>
+		<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+		<![endif]-->
+		
+		{% seo %}
+		
+		{% include head-custom.html %}
+	</head>
+	<body>
+		<header>
+			<div class="inner">
+				<a href="{{ '/' | absolute_url }}">
+					<h1>{{ site.title | default: site.github.repository_name }}</h1>
+				</a>
+				<h2>{{ site.description | default: site.github.project_tagline }}</h2>
+			</div>
+		</header>
+		<div id="content-wrapper">
+			<div class="inner clearfix">
+				<section id="main-content">
+					{{ content }}
+					
+					<footer id="copyright">
+						<p>This page is hosted on <a href="https://pages.github.com">GitHub</a>. It uses the <a href="https://github.com/pages-themes/architect">architect</a> theme.</p>
+						<p>Copyright © 2023 Dyi-Shing Ou. All rights reserved.</p>
+					</footer>
+				</section>
+				<aside id="sidebar">
+					
+					{% include navigation.html %}
+					
+					<a href='https://play.google.com/store/apps/details?id=com.dsou.widgets'>
+						<img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png' width='200'/>
+					</a>
+				</aside>
+			</div>
+		</div>
+	</body>
+</html>

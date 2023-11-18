@@ -1,0 +1,137 @@
+---
+label_font: "font-family: 'Helvetica Neue', Helvetica, Arial, serif;"
+---
+
+@import "{{ site.theme }}";
+
+header {
+	{{ page.label_font }}
+}
+
+a.button {
+	{{ page.label_font }}
+}
+
+#main-content h1 {
+	{{ page.label_font }}
+	text-indent: 0px;
+}
+
+#main-content h1::before {
+	padding-right: 0em;
+	margin-left: 0em;
+	content: "";
+}
+
+#main-content h2 {
+	{{ page.label_font }}
+}
+
+#main-content h2::before {
+	padding-right: 0em;
+	margin-left: 0em;
+	content: "";
+}
+
+#main-content h3 {
+	{{ page.label_font }}
+}
+
+#main-content h3::before {
+	padding-right: 0em;
+	margin-left: 0em;
+	content: "";
+}
+
+#main-content h4 {
+	{{ page.label_font }}
+}
+
+#main-content h4::before {
+	padding-right: 0em;
+	margin-left: 0em;
+	content: "";
+}
+
+#main-content h5 {
+	{{ page.label_font }}
+}
+
+#main-content h5::before {
+	padding-right: 0em;
+	margin-left: 0em;
+	content: "";
+}
+
+#main-content h6 {
+	{{ page.label_font }}
+}
+
+#main-content h6::before {
+	padding-right: 0em;
+	margin-left: 0em;
+	content: "";
+}
+
+// Adding 'Contents' headline to the TOC
+#markdown-toc::before {
+	content: "Contents";
+	font-weight: bold;
+}
+
+#markdown-toc {
+	list-style: decimal inside;
+	padding-top: 0.0em;
+	padding-bottom: 0.0em;
+	padding-left: 0.0em;
+	padding-right: 0.0em;
+	
+	li {
+		margin-top: 5px;
+	}
+	
+	ul {
+		list-style: disc;
+		margin-top: 5px;
+		margin-bottom: 5px;
+		margin-left: 10px;
+		
+		li {
+			margin-top: 0px;
+		}
+	}
+}
+
+#copyright {
+	text-align: center;
+	font-size: 12px;
+	margin: 8px;
+	color: #888;
+	
+	p {
+		margin: 0;
+	}
+	
+	a {
+		color: #444;
+	}
+}
+
+.footnotes {
+	font-size: 12px;
+}
+
+ul {
+	ul {
+		margin-bottom: 0;
+		list-style-type: none;
+		
+		li:before {
+			content: "- ";
+		}
+		
+		li {
+			text-indent: -8px;
+		}
+	}
+}
