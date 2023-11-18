@@ -1,0 +1,29 @@
+---
+title: Q&A
+permalink: /questions
+---
+
+# Q&A
+{:.no_toc}
+
+Please post your question on the [discussions](https://github.com/dsoutw/dWidgets-Android/discussions) if it is not answered here.
+
+* Table of contents
+{:toc}
+
+## Widget
+
+### Notification
+
+Q: What device supports showing the widgets on the lockscreen?
+
+A: Known supported devices:
+* Google Pixel 4a (5G)
+
+## Rule
+
+### WiFi rule
+
+Q: Why does enabling a WiFi rule requires to grant the application the location permission?
+
+A: This is required by the system. Knowing your srounding WiFi routers gives the app a hint of your current location. Please visit "[Wi-Fi scanning overview](https://developer.android.com/develop/connectivity/wifi/wifi-scan#wifi-scan-permissions)" for details.

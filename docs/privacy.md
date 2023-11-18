@@ -1,4 +1,4 @@
-[comment]: <> (Also need to update EULA.md when this is changed)
+[comment]: <> (Also need to update EULA.md and the homepage when this is changed)
 
 # Privacy Notices
 
@@ -29,7 +29,7 @@ The data will be used in one circumstances to perform necessary functionality:
    WIFI provider to detect if the conditions of the rule are met.
 
 Your neighboring WIFI SSID data will only be used on your device.
-It will not be transmitted off the user's device nor shared with a 3rd party. 
+It will neither be transmitted off the user's device nor shared with a 3rd party. 
 You can decline from using the data by disabling the components
 (for example, remove all WIFI SSID rules), or revoking the location permissions.
 
