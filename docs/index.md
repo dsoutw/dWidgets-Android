@@ -22,6 +22,6 @@ title: Home
 * Various applications can be configured through different combinations of widgets and rules:
   - You can show a digital wallet shortcut when you are at a shopping center.
   - You can show a digital reader shortcut when you are at school.
-* It also can display widgets on the [lockscreen](screenshots#widgets-on-the-notification-pannel)[^1].
+* It can also display widgets on the [lockscreen](screenshots#widgets-on-the-notification-pannel)[^1].
 
 [^1]: This feature is only supported on the devices that can display notifications on the lockscreen.
