@@ -32,3 +32,11 @@ div#image_list {
 		width: 150px;
 	}
 }
+
+@media only screen and (max-width: 767px) {
+	div#image_list {
+		img {
+			width: 45%;
+		}
+	}
+}
