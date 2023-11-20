@@ -7,8 +7,8 @@ title: Home
 ## Features
 
 <div id="image_list" style="margin: 10px;">
-	<img src="assets/images/screenshots/floating_expand.png" alt="Widgets on a floating window"/>
-	<img src="assets/images/screenshots/notification_lockscreen.png" alt="Widgets on the lockscreen"/>
+	<img src="{{ 'assets/images/screenshots/floating_expand.png' | relative_url }}" alt="Widgets on a floating window"/>
+	<img src="{{ 'assets/images/screenshots/notification_lockscreen.png' | relative_url }}" alt="Widgets on the lockscreen"/>
 </div>
 
 * It shows widgets on a [floating window](screenshots#widgets-on-the-floating-window) or the [notification panel](screenshots#widgets-on-the-notification-pannel).<br/>

@@ -6,7 +6,7 @@ permalink: /questions
 # Q&A
 {:.no_toc}
 
-Please post your question on the [discussions](https://github.com/dsoutw/dWidgets-Android/discussions) if it is not answered here.
+Please post your question on the [discussions](https://github.com/dsoutw/dWidgets-Android/discussions) page if it is not answered here.
 
 * Table of contents
 {:toc}
@@ -26,4 +26,4 @@ A: Known supported devices:
 
 Q: Why does enabling a WiFi rule requires to grant the application the location permission?
 
-A: This is required by the system. Knowing your srounding WiFi routers gives the app a hint of your current location. Please visit "[Wi-Fi scanning overview](https://developer.android.com/develop/connectivity/wifi/wifi-scan#wifi-scan-permissions)" for details.
+A: Knowing your srounding WiFi routers gives the app a hint of your current location. Thus, the permission is required by the system to scan the WiFi. Please visit "[Wi-Fi scanning overview](https://developer.android.com/develop/connectivity/wifi/wifi-scan#wifi-scan-permissions)" for details.
