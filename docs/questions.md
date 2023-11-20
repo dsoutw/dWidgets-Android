@@ -26,4 +26,4 @@ A: Known supported devices:
 
 Q: Why does enabling a WiFi rule requires to grant the application the location permission?
 
-A: Knowing your srounding WiFi routers gives the app a hint of your current location. Thus, the permission is required by the system to scan the WiFi. Please visit "[Wi-Fi scanning overview](https://developer.android.com/develop/connectivity/wifi/wifi-scan#wifi-scan-permissions)" for details.
+A: Knowing your srounding WiFi routers gives the app a clue of your current location. Thus, the permission is required by the system to scan your WiFi. Please visit "[Wi-Fi scanning overview](https://developer.android.com/develop/connectivity/wifi/wifi-scan#wifi-scan-permissions)" for details.
