@@ -24,7 +24,7 @@ custom_sidebar: toc.md
 
 <div class="screenshot_container">
 {% include screenshot.html url="notification_panel.png" description="The widget on the notification pannel" %}
-{% include screenshot.html url="notification_lockscreen.png" description="The widget on the lockscreen" %}
+{% include screenshot.html url="notification_lockscreen.png" description="The widget on the lock screen" %}
 </div>
 
 ## The configuration editor
