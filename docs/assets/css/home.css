@@ -1,58 +1,64 @@
-header {
-	.inner {
-		table, th, td {
-			border: none;
-			text-align: left;
-			padding: none;
-			width: fit-content;
-		} 
-		img {
-			margin-right: 25px;
-			height: 150px;
-			vertical-align: -4px;
-		}
-	}
+header table, th, td {
+	border: none;
+	text-align: left;
+	padding: 0;
+	width: fit-content;
+}
+
+header #logo {
+	margin-right: 25px;
+	width: 150px;
+	height: auto;
+	vertical-align: -4px;
+}
+
+#sidebar img {
+	margin-right: 25px;
+	width: 200px;
+	height: auto;
+	vertical-align: -4px;
 }
 
 nav#main-nav {
 	font-size: 16px;
 	margin-bottom: 16px;
-	
-	ul {
-		list-style-type: none;
-		margin: 0;
-		padding: 0;
-		
-		li {
-			padding-top: 8px;
-			padding-bottom: 8px;
-			font-weight: bold;
-		}
-	}
-	
-	a {
-		color: #474747;
-	}
-	a:hover {
-		color: rgb(40, 121, 208);
-	}
-	a.active {
-		color: brown;
-	}
+}
+
+nav#main-nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav#main-nav ul li {
+	padding-top: 8px;
+	padding-bottom: 8px;
+	font-weight: bold;
+}
+
+nav#main-nav a {
+	color: #474747;
+}
+
+nav#main-nav a:hover {
+	color: rgb(40, 121, 208);
+}
+
+nav#main-nav a.active {
+	color: brown;
 }
 
 div#image_list {
 	float: right;
-	
-	img {
-		width: 150px;
-	}
+}
+
+div#image_list img {
+	width: 150px;
+	height: auto;
 }
 
 @media only screen and (max-width: 767px) {
-	div#image_list {
-		img {
-			width: 45%;
-		}
+	div#image_list img {
+		width: 45%;
 	}
 }
