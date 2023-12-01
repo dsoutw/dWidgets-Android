@@ -1,20 +1,20 @@
-div.screenshot_container {
+.screenshot_container {
 	display: flex;
-	
-	figure {
-		float: left;
-		padding: 5px;
-		margin: 5px;
-		width: 250px;
-		text-align: center;
-		
-		img {
-			text-align: center;
-			width: 200px;
-		}
-		
-		figcaption {
-			text-align: center;
-		}
-	}
+}
+
+.screenshot_container figure {
+	float: left;
+	padding: 5px;
+	margin: 5px;
+	width: 250px;
+	text-align: center;
+}
+
+.screenshot_container img {
+	text-align: center;
+	width: 200px;
+}
+
+.screenshot_container figcaption {
+	text-align: center;
 }

@@ -4,18 +4,18 @@ header {
 	padding-bottom: 8px;
 	padding-left: 0;
 	padding-right: 0;
-	.inner {
-		img {
-			margin-right: 4px;
-			height: 32px;
-			vertical-align: -4px;
-		}
-		
-		a {
-			font-size: 32px;
-			color: #fff;
-		}
-	}
+}
+
+header #logo {
+	margin-right: 8px;
+	width: auto;
+	height: 32px;
+	vertical-align: -4px;
+}
+
+header a {
+	font-size: 32px;
+	color: #fff;
 }
 
 #main-nav {
@@ -24,30 +24,32 @@ header {
 	float: right;
 	margin-top: 4px;
 	margin-bottom: 4px;	
-	
-	ul {
-		list-style-type: none;
-		margin: 0;
-		padding: 0;
-		overflow: hidden;
-		float: right;
-		
-		li {
-			float: left;
-			margin: 8px;
-		}
-	}
-	
-	a {
-		font-size: 18px;
-		color: #fff;
-	}
-	a:hover {
-		color: #9ddcff;
-	}
-	a.active {
-		color: orange;
-	}
+}
+
+#main-nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	float: right;
+}
+
+#main-nav ul li {
+	float: left;
+	margin: 8px;
+}
+
+#main-nav a {
+	font-size: 18px;
+	color: #fff;
+}
+
+#main-nav a:hover {
+	color: #9ddcff;
+}
+
+#main-nav a.active {
+	color: orange;
 }
 
 @media only screen and (max-width: 767px) {
