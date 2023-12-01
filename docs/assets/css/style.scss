@@ -25,6 +25,7 @@ a.button {
 
 #main-content h2 {
 	{{ page.label_font }}
+	text-indent: 0px;
 }
 
 #main-content h2::before {
@@ -35,6 +36,7 @@ a.button {
 
 #main-content h3 {
 	{{ page.label_font }}
+	text-indent: 0px;
 }
 
 #main-content h3::before {
@@ -45,6 +47,7 @@ a.button {
 
 #main-content h4 {
 	{{ page.label_font }}
+	text-indent: 0px;
 }
 
 #main-content h4::before {
@@ -55,6 +58,7 @@ a.button {
 
 #main-content h5 {
 	{{ page.label_font }}
+	text-indent: 0px;
 }
 
 #main-content h5::before {
@@ -65,12 +69,17 @@ a.button {
 
 #main-content h6 {
 	{{ page.label_font }}
+	text-indent: 0px;
 }
 
 #main-content h6::before {
 	padding-right: 0em;
 	margin-left: 0em;
 	content: "";
+}
+
+#main-content :target {
+   background-color: #ffa;
 }
 
 // Adding 'Contents' headline to the TOC
@@ -86,8 +95,13 @@ a.button {
 	padding-left: 0.0em;
 	padding-right: 0.0em;
 	
+	li:before {
+		content: none;
+	}
+		
 	li {
 		margin-top: 5px;
+		text-indent: 0;
 	}
 	
 	ul {

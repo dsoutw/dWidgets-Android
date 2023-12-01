@@ -5,6 +5,12 @@ header {
 	padding-left: 0;
 	padding-right: 0;
 	.inner {
+		img {
+			margin-right: 4px;
+			height: 32px;
+			vertical-align: -4px;
+		}
+		
 		a {
 			font-size: 32px;
 			color: #fff;
