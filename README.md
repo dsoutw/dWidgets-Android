@@ -2,8 +2,9 @@
 
 This is an Android utility application.
 
-Website: (https://dsoutw.github.io/dWidgets-Android/)[https://dsoutw.github.io/dWidgets-Android/]
-Download: (Google Play)[https://play.google.com/store/apps/details?id=com.dsou.widgets]
+Website: [https://dsoutw.github.io/dWidgets-Android/](https://dsoutw.github.io/dWidgets-Android/)
+
+Download: [Google Play](https://play.google.com/store/apps/details?id=com.dsou.widgets)
 
 * It shows widgets on a [floating window](https://dsoutw.github.io/dWidgets-Android/screenshots#widgets-on-the-floating-window) or the [notification panel](https://dsoutw.github.io/dWidgets-Android/screenshots#widgets-on-the-notification-pannel).<br/>
   Available widgets:
