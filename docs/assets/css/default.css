@@ -18,6 +18,10 @@ header a {
 	color: #fff;
 }
 
+#main-content p + ul {
+    margin-top: -15px;
+}
+
 #main-nav {
 	font-size: 16px;
 	display: inline-block;
